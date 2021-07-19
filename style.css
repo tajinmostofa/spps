@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.aqua-color {
+    color: aqua
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+h1 {
+    font-size: 50px;
+}
+
+.flexible-content {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(aqua, cyan);
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+nav {
+    background-image: url(image);
+    background-repeat: no-repeat;
+}
+p {
+    padding: 2px;
+}
+
+#skills {
+    margin-left: 20px;
+}
+
+.skill-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+#Projects {
+    margin-left: 20px;
+}
+.project-section {
+    background-image: url(image);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+#java {
+    border-left: 5px solid;
+    border-image: linear-gradient(aqua, cyan);
+    border-image-slice: 1;
+}
+#contacts{
+    margin-left: ;
+}
+.contact-item{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+}
+#information{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#message{
+    border-left: 5px solid;
+    border-image: linear-gradient(aqua, cyan);
+    border-image-slice: 1;
+}
+.input-button {
+    color: blue;
+    background-image: linear-gradient(to left, #E12637, #FF5032);
+    padding: 10px 38px;
+    border-radius: 100px;
+    margin-left: 15px;
+}
+.email {
+    padding: 10px 99px 8px 10px;
+    margin: 15px 30px 15px 30px;
+    border: 1px solid #FF5032;
+    
+}
+
+
+footer p {
+    text-align: center;
+    color: grey;
+}

@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #progressbar {
+            background-color: black;
+            border-radius: 13px;
+            /* (height of inner div) / 2 + padding */
+            padding: 3px;
+        }
+
+        #progressbar>div {
+            background-color: white;
+            width: 40%;
+            /* Adjust with JavaScript */
+            height: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <h2><a href="#Home">Home</a></h2>
+        <h2><a href="#About">About</a></h2>
+        <h2><a href="#projects">Projects</a></h2>
+        <h2><a href="#Skills">Skils</a></h2>
+        <h2><a href="">Contact</a></h2>
+        </div>
+    </nav>
+
+    <section id="Home" class="top-section flexible-content">
+
+        <div class="half-width">
+            <h1>Welcome To</h1>
+            <h1><span class="aqua-color">Tajin Mostofa</span> World!</h1>
+            <h3>Junior Web Developer And Student</h3>
+            <p>I am a Tajin Mostofa.I am a student of aiub. I am a student of CSE department.I am also a
+                front-end web developer.My hobby is cooking and gradening.</p>
+            <a class="link-button" target="_blank"
+                href="https://tajinmostofa2020.github.io/tajin-portfolio/index.html">Hire Me</a>
+            </div>
+            <div class="half-width"><img src="image.jpg" alt=""></div>
+        </section>
+        <section id="About" class="dream flexible-content">
+            <div class="half-width">
+                <img src="image" alt="">
+            </div>
+            <div class="half-width">
+                <h1>Dream </h1>
+                <h3>Become a web developer</h3>
+                <p>I want to be a web developer.I learn html,css.I am dedicated to become web developer.
+                    Become a web developer it's my dream.I like reading book and travelling.My hobby is cooking and 
+                   gradening.</p>
+                <a class="link-button" target="_blank"
+                    href="tajinmostofa2020.github.io/tajin-portfolio/index.html">Download Resume</a>
+        </div>
+        <div class="half-width"><img src="image.JPG" alt=""></div>
+    </section>
+    <section id="About" class="dream flexible-content">
+        <div class="half-width">
+            <img src="image" alt="">
+        </div>
+    </section>
+    <section id="Skills" class="skill-section  ">
+        <h1 id="skills">Skills</h1>
+        <div class="flexible-content">
+            <div class="skill-item">
+                <h3>HTML</h3>
+                <div id="progressbar">
+
+                    <div>80%</div>
+                </div>
+
+                <h3>CSS</h3>
+                <div id="progressbar">
+
+                    <div>50%</div>
+                </div>
+
+                <h3>Graphics</h3>
+                <div id="progressbar">
+
+                    <div>80%</div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="skill-item">
+                <h3>is>Computer network</h3>
+                <div id="progressbar">
+
+                    <div>70%</div>
+                </div>
+                <h3>C++</h3>
+                <div id="progressbar">
+
+                    <div>65%</div>
+                </div>
+                <h3>JAVA</h3>
+                <div id="progressbar">
+
+                    <div>60%</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="projects" class="project-section">
+
+        <h1 id="Projects">Projects</h1>
+        <div class="flexible-content">
+            <div id="cpp" class="project-item">
+                <h2>C++</h2>
+                <h3 class="aqua-color">
+                    Simple Banking System In C++
+                </h3>
+                <p>The Simple Banking System is a concept of recording customer's account details. Here the user can
+                    perform all the tasks like creating an account, deposit amount, withdraw amount, check balance. Also
+                    view all account holders detail, close an account and modify an account.</p>
+            </div>
+            <div id="java" class="project-item">
+                <h2>Java</h2>
+                <h3 class="aqua-color">
+                    Student Management System
+                </h3>
+                <p>Student management system project in java is a web-based application to manage the record of students
+                    in the university, college, School, or any institute. The objective of the “Student Management
+                    System” is to design a scheduling system for an education center.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact" class="contact-section">
+
+        <h1 id="contacts">Contact ME</h1>
+        <div class="flexible-content">
+            <div id="information" class="contact-item">
+                <h2>Contact With Me</h2>
+                <h3>
+                    Email: tajinmostofa1995@gmail.com
+                </h3>
+
+                <h3>
+                    Phone: 01752195962
+                </h3>
+
+                <h3>
+                    Address: Banani,Dhaka-1230
+                </h3>
+
+            </div>
+            <div id="message" class="contact-item">
+                <h2>Send Message</h2>
+                <input class="message" type="Name" placeholder="Enter your name"><br>
+                <input class="message" type="text" placeholder="Enter your Phone Number"><br>
+                <textarea class="message" name="message" rows="10" required placeholder="Enter Your Message"></textarea><br>
+                <input class="input-button" type="button" value="submit">
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>&copy;2021 Tajin Mostofa  </p>
+    </footer>
+
+
+
+
+</body>
+
+</html>
